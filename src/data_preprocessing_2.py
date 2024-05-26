@@ -11,7 +11,8 @@ def preprocess_data(df):
     return df
 
 if __name__ == "__main__":
-    df = load_data('D:/WhalePredict/data/raw/synthetic_whale_sightings.csv')
-    df = preprocess_data(df)
-    df.to_csv('D:/WhalePredict/data/processed/whale_sightings_processed.csv', index=False)
+        df = load_data('../data/raw/synthetic_whale_sightings.csv')
+        df = preprocess_data(df)
+        df.to_csv('../data/processed/whale_sightings_processed.csv', index=False)
+
 
